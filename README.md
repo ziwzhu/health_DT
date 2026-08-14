@@ -1,3 +1,5 @@
+# Note: Superseded by v2.0.0. Code for this version lives on the v1-legacy branch.
+
 # Digital Twin Pipeline for Cancer Survivorship Care Utilization
 
 A three-level computational framework for modeling healthcare utilization patterns among older (65+) lung cancer survivors using SEER-Medicare claims data. The pipeline discovers utilization phenotypes from 52-week encounter sequences, generates synthetic populations with scenario-shifted demographics, and simulates resource-constrained care delivery via agent-based modeling.
