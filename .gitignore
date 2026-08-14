@@ -1,0 +1,29 @@
+# Protected health information — never commit anything from these directories.
+# SEER-Medicare data is governed by a Data Use Agreement.
+data/
+outputs/
+*.csv
+*.npy
+*.npz
+*.pkl
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
